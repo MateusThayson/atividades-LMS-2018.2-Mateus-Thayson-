@@ -1,0 +1,65 @@
+
+.navegador {
+    text-align: center;
+    font-size: 5mm;
+}
+
+.paragrafo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: center;
+        color: seagreen;
+        border-style: none none none solid;
+        border-color: #C94E4E;
+        border-width: 1vh;   
+}
+
+.bonecofundo {
+    background-image: url("gradiente.png");
+}
+
+#designerdyt {
+    background-image: url("gradiente.png");
+}
+
+.formulario {
+    background-image: url("gradiente.png");
+}
+
+#podcast {
+    background-image: url("gradiente.png");
+}
+
+h1 {
+    color: #C94E4E;
+    font-size: 60px;
+    border-style: dashed;
+    border-color:#C94E4E;
+    border-width: 2vw; 
+    padding: 5mm;
+}
+
+h2 {
+    font-size: 30px;
+    border-style: none none solid;
+    padding: 1mm; 
+    border-color: #C94E4E;
+    border-width: 1mm; 
+}
+
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
