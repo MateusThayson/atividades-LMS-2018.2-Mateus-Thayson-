@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let gato = {
+            nome : "Félix",
+            idade : 3,
+        }
+    </script>
+
+<script>
+        let url = dadad;
+        let x = new XMLHttpRequest()
+        x.onreadystatechange = function(){
+            if(x.readyState == 4){
+                let data = JSON.parse(x.responseText);
+                console.log(data[0].title);            
+            }
+            console.log(x.readyState);
+        }
+        x.open("GET", url, true);
+        x.send();
+    
+        function postitemhttp(){
+            let x = new XMLHttpRequest();
+            x.onreadystatechange = function(){
+            if(x.readyState == 4){
+                console.log(x.responseText);
+            }
+            x.post{"POST", url,true};
+            x.setRequestHeader("Content-type","application/json");
+            
+                
+            }
+        }
+    
+    </script>
+    
+
+</body>
+</html>
+
+<!-- HEADER LINES
+GET - não possui corpo;
+
+    CÓDIGO DE STATUS
+
+1XX - INFORMACIONAL
+2XX - SUCESSO
+3XX - REDIRECIONAMENTO
+4XX - CLIENTE ERROR
+5XX - SERVER ERROR
+-->
+
+<!--Objeto XMLHttpRequest-->
